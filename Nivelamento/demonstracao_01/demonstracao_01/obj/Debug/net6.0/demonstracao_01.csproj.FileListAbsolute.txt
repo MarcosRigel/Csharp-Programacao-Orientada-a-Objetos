@@ -1,0 +1,14 @@
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\bin\Debug\net6.0\demonstracao_01.exe
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\bin\Debug\net6.0\demonstracao_01.deps.json
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\bin\Debug\net6.0\demonstracao_01.runtimeconfig.json
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\bin\Debug\net6.0\demonstracao_01.dll
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\bin\Debug\net6.0\demonstracao_01.pdb
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\demonstracao_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\demonstracao_01.AssemblyInfoInputs.cache
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\demonstracao_01.AssemblyInfo.cs
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\demonstracao_01.csproj.CoreCompileInputs.cache
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\demonstracao_01.dll
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\refint\demonstracao_01.dll
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\demonstracao_01.pdb
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\demonstracao_01.genruntimeconfig.cache
+C:\temp\ws-csharp\demonstracao_01\demonstracao_01\obj\Debug\net6.0\ref\demonstracao_01.dll
