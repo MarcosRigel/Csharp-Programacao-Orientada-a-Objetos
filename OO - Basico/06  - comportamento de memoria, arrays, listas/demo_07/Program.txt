@@ -1,0 +1,24 @@
+using ProjetoAula;
+using System;
+
+internal class Program
+{
+    static void Main(string[] args)
+    {
+        string[] vect = new string[] { "Maria", "Alex", "Bob" };
+
+        foreach(string v in vect)
+        {
+            Console.WriteLine(v);
+        }
+
+        Console.WriteLine("----------------------------");
+
+        for (int i=0;i<vect.Length;i++)
+        {
+            Console.WriteLine(vect[i]);
+        }
+
+    }
+
+}
