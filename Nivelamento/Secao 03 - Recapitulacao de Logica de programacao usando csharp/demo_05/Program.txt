@@ -1,0 +1,31 @@
+using System;
+using System.Globalization;
+
+namespace PrimeiroProjeto
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a = 5;
+            int b = 2;
+
+            double resultado = (double) a / b;
+
+            Console.WriteLine(resultado);
+
+            //double a;
+            //int b;
+
+            //a = 5.1;
+            //b = (int) a; // casting
+
+            //Console.WriteLine(b);
+
+            // float x = 4.5f;
+            // double y = x
+            // Console.WriteLine(y);
+        }
+    }
+}
+
