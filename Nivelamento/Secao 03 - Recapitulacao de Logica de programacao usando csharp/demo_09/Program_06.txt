@@ -1,0 +1,33 @@
+using System;
+using System.Globalization;
+
+namespace PrimeiroProjeto
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double trianguloRetangulo, circuloRaio, trapezio, quadrado, retangulo;
+
+            string[] vetor = Console.ReadLine().Split(' ');
+
+            double a = double.Parse(vetor[0], CultureInfo.InvariantCulture);
+            double b = double.Parse(vetor[1], CultureInfo.InvariantCulture);
+            double c = double.Parse(vetor[2], CultureInfo.InvariantCulture);
+
+            trianguloRetangulo = (a * c) / 2;
+            circuloRaio = 3.14159 * Math.Pow(c, 2.0);
+            trapezio = (a + b) * c / 2.0;
+            quadrado = b * b;
+            retangulo = a * b;
+
+            Console.WriteLine("TRIANGULO: " + trianguloRetangulo.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("CIRCULO: " + circuloRaio.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("TRAPEZIO: " + trapezio.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("QUADRADO: " + quadrado.ToString("F3", CultureInfo.InvariantCulture));
+            Console.WriteLine("RETANGULO: " + retangulo.ToString("F3", CultureInfo.InvariantCulture));
+
+        }
+    }
+}
+

@@ -1,0 +1,29 @@
+using System;
+using System.Globalization;
+
+namespace PrimeiroProjeto
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] vetor = Console.ReadLine().Split(' ');
+            int peca1 = int.Parse(vetor[0]);
+            int numeroPeca1 = int.Parse(vetor[1]);
+            double valorUnitario1 = double.Parse(vetor[2], CultureInfo.InvariantCulture);
+
+            vetor = Console.ReadLine().Split(' ');
+            int peca2 = int.Parse(vetor[0]);
+            int numeroPeca2 = int.Parse(vetor[1]);
+            double valorUnitario2 = double.Parse(vetor[2], CultureInfo.InvariantCulture);
+
+            double resultado01 = numeroPeca1 * valorUnitario1;
+            double resultado02 = numeroPeca2 * valorUnitario2;
+            double resultadoFinal = resultado01 + resultado02;
+
+            Console.WriteLine("VALOR A PAGAR: R$ " + resultadoFinal.ToString("F2", CultureInfo.InvariantCulture));
+
+        }
+    }
+}
+

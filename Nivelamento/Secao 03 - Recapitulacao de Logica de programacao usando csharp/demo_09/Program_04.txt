@@ -1,0 +1,22 @@
+using System;
+using System.Globalization;
+
+namespace PrimeiroProjeto
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int numeroFuncionario = int.Parse(Console.ReadLine());
+            int horasTrabalhadas = int.Parse(Console.ReadLine());
+            double valorHora = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double resultado = horasTrabalhadas * valorHora;
+
+            Console.WriteLine("NUMBER = " + numeroFuncionario);
+            Console.WriteLine("SALARY = U$ " + resultado.ToString("F2", CultureInfo.InvariantCulture));
+
+        }
+    }
+}
+
